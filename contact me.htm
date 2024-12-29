@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <form action="mailto:chkaushik621@gmail.com" method="post"enctype="text/plain">
+        <table>
+            <tr>
+                <td><label for="name">Your Name</label></td>
+                <td><input type="text" id="name" name="Your name" required></td>
+            </tr>
+            <tr>
+                <td><label for="contact">Your Contact</label></td>
+                <td><input type="text" id="contact" name="Your contact" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Your Email</label></td>
+                <td><input type="email" id="email" name="Your email" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Your Password</label></td>
+                <td><input type="password" id="password" name="Your password" required></td>
+            </tr>
+        </table>
+        <label for="message">Your Message</label><br>
+        <textarea id="message" name="message" rows="10" cols="30" required></textarea><br>
+        <input type="checkbox" id="accept" name="accept" required>
+        <label for="accept">All files and conditions are accepted</label><br>
+        <hr>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
